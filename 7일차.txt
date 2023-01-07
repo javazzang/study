@@ -1,0 +1,14 @@
+MVC TYPE1 (JSP 로직이 들어가는거)
+MVC TYPE2 (JSP 에서는 화면 출력로직만.
+
+606 페이지
+608 페이지 읽어보고. 상품등록은 숙제.
+
+강사 GitHub 주소
+https://github.com/lodosswkor/java-servlet-study
+
+vo -- pojo (데이터 교환용 java 클래스 패키지)
+repository -- 데이터베이스 연결
+dao -- repository - service 간 소통 작업 (Data Access Object)
+service -- 기본 로직
+util -- 공통유틸 
