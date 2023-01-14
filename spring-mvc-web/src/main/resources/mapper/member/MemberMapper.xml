@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">                 
+<mapper namespace="shop.javac.springmvcweb.dao.MemberDao">
+
+	<select id="getMemberList" parameterType="Integer" resultType="MemberVo">
+		SELECT * FROM members WHERE userNo=#{value}
+	</select>
+	
+	<insert id="setMember" parameterType="MemberVo">
+		INSERT INTO members (
+			userName,
+			userPwd,
+			userEmail
+		) VALUES (
+			#{userName},
+			#{userPwd},
+			#{userEmail}
+		)
+	</insert>
+	
+	<select id="getMemberListAll" parameterType="Map" resultType="MemberVo">
+		SELECT * FROM members ORDER BY userNo DESC
+	</select>
+</mapper>
