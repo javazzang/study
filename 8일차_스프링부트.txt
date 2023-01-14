@@ -1,0 +1,46 @@
+
+
+  - Springboot (2.7.7)
+    + SrpingFramework 5.x
+    + jdk 11
+    + 모던자바 : 패키지 매니져  ( maven, gradle )
+       node.js -> npm (node package manager)
+       php -> composer
+       .NET -> nuget 
+       js -> yarn ....
+    + build는 maven     
+       
+  - Spring initializer site
+    https://start.spring.io/
+
+    Spring-web  - 웹사이트
+     
+    JDBC-API     - DB 연결및 Query
+    MariaDB Driver
+    MyBatis FrameWork
+
+    - 개발편의성
+    lombok - annotation option
+    Springboot devtools - live reloading
+
+    기본패키징
+    repository - DB connection
+    vo - (Dto) POJO (데이터 전달 오브젝트)
+    service - 로직
+    controller(x) -> jsp 가 controller
+
+
+    Springboot 패키징
+
+    controller - 자바와 view 연결
+    service - 로직
+    dao - 데이터 콘트롤 오브젝트(Data Access Object)
+    vo - 데이터 전달 오브젝트
+
+
+jdbc:mysql://ideatags.io:3306/daanguen_mvc_01?user=web06&password=12345
+
+
+
+사이트: start.spring.io
+검색어: spring initializr
